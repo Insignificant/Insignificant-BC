@@ -6,6 +6,11 @@
 		<link rel="stylesheet" type="text/css" href="refucks/fuckingstyles/beer.css">
 
 		<script type="text/javascript">
+			 function playSound(soundfile) {
+			 	//alert("test:pass");
+			 document.getElementById("dummy").innerHTML=
+			 "<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+			 }
 		// var platform = navigator.platform;
 		// 	window.onload = function style() {
 		// 		if (platform == 'iPhone' ||
@@ -21,6 +26,7 @@
 	</head>
 
 	<body>
+		<span id="dummy"></span>
 		<div class="super">
 
 			<div class="top">
@@ -35,7 +41,7 @@
 						</li>
 
 						<li>
-							<a href="index.html"><img src="refucks/fuckingimagesandshit/CapLogo2.png"/></a>
+							<a href="index.html"><img src="refucks/fuckingimagesandshit/CapLogo2.png" onmouseover="playSound('refucks/fuckingimagesandshit/beerpop2.mp3')"/></a>
 						</li>
 
 						<li>
