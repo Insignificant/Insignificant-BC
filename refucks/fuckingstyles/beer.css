@@ -1,0 +1,103 @@
+/* Stylesheet for Insignificant index.html */
+
+body {
+	margin-top: 0px;
+}
+
+.super {
+	margin-top: 0px;
+	margin-left: 25px;
+	position: relative;
+	width: 850px;
+	box-shadow: 0px 0px 10px black; 
+}
+
+.top {
+	position: fixed;
+	width: 850px;
+	margin: 0px auto;
+}
+
+.navbar {
+	position: fixed;
+	list-style: none;
+	background-color: black;
+	width: 850px;
+	height: 55px;
+	z-index: 3;
+}
+
+nav li{
+	display:inline-block;
+	list-style: none;
+	padding-top:1.7%;
+	width: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+
+li img {
+	width: 100px;
+	vertical-align: text-top;
+	margin-top: -60;
+	padding: 0;
+
+}
+
+/*insignificant link*/
+nav a:link{
+	color: #DDDDDD;
+	text-decoration: none;
+	font-family: "Georgia"
+}
+/*insignificant visited*/
+nav a:visited{
+	color: #DDDDDD;
+	text-decoration: none;
+}
+/*insignificant hover*/
+nav a:hover{
+	color: white;
+	text-decoration: none;
+}
+/*insignificant acitve*/
+nav a:active{
+	color: white;
+	text-decoration: underline;
+}
+
+.headBackground {
+	position: absolute;
+	z-index: 0;
+	width: 850px;
+}
+
+.logo {
+	position: absolute;
+	z-index: 1;
+	top: 130px;
+	left: 30px;
+	width: 600px;
+}
+
+
+/* Everything is in herf */
+.content {
+	position: relative;
+	z-index: 2;
+	top: 330px;
+	width: 850px;
+	min-height: 1200px;
+	background-color: white;
+	border-top: 2px solid black;
+	margin: 0px auto;
+	opacity: 1;
+}
+
+.header {
+	width: 800px;
+	margin: 25px;
+	font-size: 20px;
+}
