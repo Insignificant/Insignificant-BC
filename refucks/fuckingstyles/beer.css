@@ -31,6 +31,9 @@ body {
 	box-shadow: 0 4px 2px -2px black;
 	z-index: 4;
 }
+nav ul{
+	margin-left: -10px;
+}
 
 nav li{
 	display:inline-block;
@@ -53,10 +56,10 @@ li img {
 }
 
 li img:hover {
-	-webkit-transition:all 1.35s ease-in-out;
-    -moz-transition:all 1.35s ease-in-out;
-    -o-transition:all 1.35s ease-in-out;
-    -ms-transition:all 1.35s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -ms-transition:all .5s ease-in-out;
     -webkit-transform:rotate(-360deg);
     -moz-transform:rotate(-360deg);
     -o-transform:rotate(45deg);
@@ -67,7 +70,7 @@ li img:hover {
 nav a:link{
 	color: #DDDDDD;
 	text-decoration: none;
-	font-family: "Georgia"
+	font-family: "Helvetica"
 }
 /*insignificant visited*/
 nav a:visited{
